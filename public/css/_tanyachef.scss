@@ -1,0 +1,108 @@
+.tanyachef {
+    margin-top: 80px;
+}
+
+.form-pencarian {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input.input-pencarian {
+    background: #e4e4e4;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    position: relative;
+    display: block;
+    width: 85%;
+}
+
+.tombol-pencarian {
+    width: 15%;
+    border: none;
+    color: #fff;
+    background: #28b873;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        margin: 5px;
+        width: 18px;
+    }
+}
+
+.keahlian-box {
+    height: 250px;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 80%;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #e4e4e4;
+        border-radius: 20px;
+    }
+
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.3);
+    border-radius: 10px;
+}
+
+.chef-box {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #e4e4e4;
+
+    &-avatar {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &-detail {
+        align-items: center;
+
+        a {
+            color: black;
+
+            &:hover {
+                transition: .5s;
+                text-decoration: none;
+                color: #28b873;
+            }
+        }
+
+        p {
+            display: inline-flex;
+        }
+
+        img {
+            margin: 5px;
+            width: 16px;
+        }
+    }
+
+    &-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 100%;
+        border-left: 2px solid #e4e4e4;
+        text-align: center;
+
+        p {
+            margin: 0px;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+    }
+}

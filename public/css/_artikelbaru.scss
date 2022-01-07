@@ -1,0 +1,54 @@
+.artikelbaru {
+    margin-top: 100px;
+    color: #989898;
+
+    &-judul {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 40px;
+        font-family: serif;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &-kategori {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-family: serif;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    label {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+
+        img {
+            opacity: 70%;
+            width: 70px;
+        }
+    }
+
+    .input-konten {
+        font-size: 20px;
+        width: 100%;
+        resize: none;
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

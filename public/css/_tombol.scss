@@ -1,0 +1,267 @@
+.tombol {
+    &-chat {
+        display: inline-flex;
+        align-items: center;
+        background: #28b873;
+        border: 2px solid #28b873;
+        padding: 2px 18px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+    }
+
+    &-respon {
+        margin-left: auto;
+        background: #28b873;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 5px 18px;
+        color: white;
+        font-weight: bold;
+        margin-top: auto;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+        }
+    }
+
+    &-publish {
+        margin-left: auto;
+        background: #28b873;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 50px;
+        color: white;
+        font-weight: bold;
+        margin-top: auto;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+        }
+    }
+
+    &-simpan {
+        background: #28b873;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+        color: white;
+        font-weight: bold;
+        margin-top: auto;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+        }
+    }
+
+    &-selesaikonsul {
+        background: #ff4f4f;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        color: white;
+        font-weight: bold;
+        margin-top: auto;
+    }
+
+    &-gelap {
+        background: #333333;
+        padding: 8px 28px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+        border: 2px solid #333333;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+    }
+
+    // Tombol Hijau
+    &-hijau {
+        display: inline-flex;
+        align-items: center;
+        background: #28b873;
+        border: 2px solid #28b873;
+        padding: 2px 2px;
+        padding-right: 20px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+    }
+
+    &-hijau-normal {
+        display: inline-flex;
+        align-items: center;
+        background: #28b873;
+        border: 2px solid #28b873;
+        padding: 2px 18px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+    }
+
+    &-hijau-besar {
+        display: inline-flex;
+        align-items: center;
+        background: #28b873;
+        border: 2px solid #28b873;
+        padding: 10px 24px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+
+        img {
+            width: 30px;
+            margin-right: 5px;
+        }
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #000;
+            border: 2px solid #28b873;
+
+            .iconposting {
+                background: url(../asset/add-file.svg);
+                background-size: cover;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+
+    // Tombol Putih
+
+    &-putih {
+        display: inline-flex;
+        align-items: center;
+        background: #fff;
+        border: 2px solid #28b873;
+        padding: 2px 2px;
+        width: 100%;
+        color: #28b873;
+        font-weight: bold;
+        border-radius: 50px;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+
+        .tombol-icon {
+            border: 1px solid #28b873;
+        }
+    }
+
+    &-login {
+        display: inline-flex;
+        align-items: center;
+        background: #28b873;
+        border: 2px solid #28b873;
+        padding: 2px 30px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+
+        &:hover {
+            background: #28b873;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            color: #333333;
+            border: 2px solid #28b873;
+        }
+    }
+
+    &-icon {
+        background: white;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 100%;
+        margin-right: 5px;
+
+        img {
+            width: 22px;
+        }
+    }
+
+    &-like {
+        img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
+        padding: 0px;
+        margin: 0px;
+        outline: none;
+        border: none;
+        background: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-komen {
+        img {
+            width: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        padding: 0px;
+        margin: 0px;
+        outline: none;
+        border: none;
+        background: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

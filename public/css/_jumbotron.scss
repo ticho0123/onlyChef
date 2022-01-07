@@ -1,0 +1,13 @@
+.jumbotron {
+    padding-top: 100px;
+    height: 550px;
+    background-image: url(../asset/bghero.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    color: #fff;
+
+    &-content {
+        padding-left: 70px;
+    }
+}

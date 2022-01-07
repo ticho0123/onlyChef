@@ -1,0 +1,138 @@
+@media (max-width:728px) {
+    .navbar-dark {
+        padding: 20px;
+        background-color: #28b873;
+    }
+
+    .navbar-light {
+        padding: 20px;
+        background: #fff;
+    }
+
+    .navbar {
+        .nav-item {
+            display: flex;
+            flex-direction: column !important;
+        }
+    }
+
+
+
+    .tombol {
+        &-hijau {
+            padding: 2px 2px;
+            padding-right: 20px;
+        }
+    }
+
+    .jumbotron {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+
+        &-content {
+            text-align: center;
+            padding: 20px;
+        }
+    }
+
+    .menu-bawah {
+        &-kiri {
+            margin: 60px 0px;
+        }
+
+        &-tengah {
+            font-size: 20px;
+            margin: 20px;
+        }
+    }
+
+    #login {
+        left: 30px;
+    }
+
+    #register {
+        left: 425px;
+    }
+
+    .artikel {
+        &-title {
+            a {
+                font-size: 20px;
+            }
+        }
+
+        &-post {
+            margin: 15px 0px;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &-detail {
+            width: 100%;
+        }
+
+        &-thumbnail {
+            width: 100%;
+        }
+
+    }
+
+    .tanyachef {
+        margin-top: 120px;
+
+        .input-pencarian {
+            width: 70%;
+        }
+
+        .tombol-pencarian {
+            width: 30%;
+        }
+    }
+
+    .chef-box {
+        &-detail {
+            margin-top: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+    .chat-input {
+        &-file {
+            width: 20%;
+        }
+
+        &-text {
+            width: 60%;
+        }
+
+        &-kirim {
+            width: 20%;
+        }
+    }
+
+    .chatchef-kiri {
+        height: 600px;
+        margin-bottom: 60px;
+    }
+
+    .chat-user {
+        .chat-message {
+            font-size: 12px;
+            margin-right: 10px;
+        }
+    }
+
+    .chat-chef {
+        .chat-message {
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    }
+
+    .pembayaran-box {
+        width: 80%;
+    }
+}

@@ -1,0 +1,47 @@
+@import "navbar";
+@import "jumbotron";
+@import "font";
+@import "menu-bawah";
+@import "tombol";
+@import "footer";
+@import "form-login";
+@import "tanyachef";
+@import "artikel";
+@import "artikelpost";
+@import "chatchef";
+@import "artikelbaru";
+@import "pembayaran";
+@import "responsive";
+
+button:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Quicksand Regular', sans-serif;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    &-brand {
+        font-family: 'Quicksand Bold', sans-serif;
+    }
+}
+
+.jumbotron {
+    h1 {
+        font-family: 'Quicksand Bold', sans-serif;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b {
+    font-family: 'Quicksand Bold', sans-serif;
+}
